@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+
+    <style>
+         @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.hero {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background: #fff;
+}
+
+.container {
+    width: 1320px;
+    max-width: 95%;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+}
+
+.logo {
+    color: #000;
+    font-size: 35px;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+.logo span {
+    color: #2373bb;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+
+nav ul a {
+    color: #000;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+nav ul li:after {
+    content: '';
+    display: block;
+    width: 0%;
+    height: 2px;
+    background-color: #2373bb;
+    margin: auto;
+    transition-duration: .4s;
+}
+
+nav ul li:hover::after {
+    width: 100%;
+}
+
+nav ul a:hover {
+    color: #2373bb;
+    transition-duration: .4s;
+}
+
+.about{
+    width: 100%;
+    height: 930px;
+    padding-top: 300px;
+    background-color: white;
+}
+
+.about img{
+    height: auto;
+    width: 420px;
+}
+
+.about-text{
+    margin-left: 30px;
+    width: 550px;
+}
+
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about-text h1{
+    color: black;
+    font-size: 60px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.about-text h5{
+    color: black;
+    font-size: 25px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+}
+
+span{
+    color:#51BFE2;
+
+}
+
+.about-text p{
+    color: black;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+
+button{
+    background: #51BFE2;
+    color: black;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+}
+
+button:hover{
+    background: transparent;
+    border: 2px solid #7F7FFF;
+    cursor: pointer;
+}
+
+
+
+
+    </style>
+</head>
+<body>
+
+    <section class="hero">
+        <div class="container">
+            <nav>
+                <h2 class="logo"><span>SEB İnternat</span>ional Software</h2>
+    
+                <ul>
+                    <a href="anasayfa.html"><li>Anasayfa</li></a>
+                    <a href="hakkımızda.html"><li>Hakkımızda</li></a>
+                    <a href="kullanıcıyorumları.html"><li>Kullanıcı Yorumları</li></a>
+                    <a href="ürünler.html"><li>Ürünler</li></a>
+                    <a href="iletişim.html"><li>İletişim</li></a>
+                </ul>
+            </nav>
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="about">
+        <div class="main">
+            <img src="seb-logo.png">
+            <div class="about-text">
+                <h1>Hakkımızda</h1>
+                <h5>Yazılımcı  <span>& Tasarımcı</span></h5>
+                <p>Bizler SEB Medya ailesi olarak, hem eğitim alanında hem de projeler anlamında 
+                    hizmet veren içerik üreticisiyiz. Yeni yazılımcılar yetiştirmek, bilgiler katarak
+                    peşimizden gelen arkadaşlarımıza yardımcı olarak destek olmak istiyoruz. Proje 
+                    kapsamında ise web yazılımları, grafik tasarımları, SEO vb. dijital tüm işlerinizle 
+                    bizler ilgileniyoruz...</p>
+                <button type="button"> <a href="iletişim.html"></a>İletişime Geçelim</a></button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
